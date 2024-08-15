@@ -1,4 +1,6 @@
 import React from "react";
+import img from "./img/1.png";
+import Footer from "../Footer";
 
 export default function About() {
   return (
@@ -46,10 +48,7 @@ export default function About() {
             <p>HM Jawad</p>
           </div>
           <div className="founder">
-            <img
-              src="https://s3-alpha-sig.figma.com/img/e2af/3710/982dac10d6b2a616e92ba5b112180e1b?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ayInS1tGMn3DkXE2jEaiio0Flfi1M-~oirVmUGj6wyYy3BYDT~lEQebjmH6ME34SPRGSeUu3yzNsH7m9C~olYnCoeKlISWLqkVYzg0pAbRE~e5YwXTjzsgzrwKdd1U-R2VIM3GlCFA0PJ2380cg1AFgJySreDId8OBils3qO8qF4hLuy7ZNBYq7HgwqrrCmc~ne~8Qea5bgJkuRTQcXUA5L9VdA7WN7PV9CXpVvE73IpKcJcsV9fIknRuT3mErbz39SkjdsGXtjpm3Hzo1G96NcXsLStyU89Dk5q9QtgnlSk1YN3kRRSE3OVbKcRPLcPODiQNeXx2lGG3qBLgO8hbQ__"
-              alt="Furqan Abid"
-            />
+            <img src={img} alt="Furqan Abid" />
             <p>Furqan Abid</p>
           </div>
           <div className="founder">
@@ -111,43 +110,7 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      <footer className="footer">
-        <div className="footer-section">
-          <h3>Company Info</h3>
-          <ul>
-            <li>About Us</li>
-            <li>Latest Posts</li>
-            <li>Contact Us</li>
-            <li>Shop</li>
-          </ul>
-        </div>
-        <div className="footer-section">
-          <h3>Help Links</h3>
-          <ul>
-            <li>Tracking</li>
-            <li>Order Status</li>
-            <li>Delivery</li>
-            <li>Shipping Info</li>
-            <li>FAQ</li>
-          </ul>
-        </div>
-        <div className="footer-section">
-          <h3>Useful Links</h3>
-          <ul>
-            <li>Special Offers</li>
-            <li>Gift Cards</li>
-            <li>Advertising</li>
-            <li>Terms of Use</li>
-          </ul>
-        </div>
-        <div className="footer-section">
-          <h3>Get in the Know</h3>
-          <input type="email" placeholder="Enter email" />
-          {/* eslint-disable-next-line react/button-has-type */}
-          <button>Subscribe</button>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

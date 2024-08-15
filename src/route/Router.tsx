@@ -6,6 +6,7 @@ import NotFound from "pages/NotFound";
 
 const Home = lazy(() => import("pages/Home"));
 const About = lazy(() => import("pages/About"));
+const Contact = lazy(() => import("pages/Contact"));
 
 function Router() {
   return (
@@ -25,6 +26,14 @@ function Router() {
             element={
               <Suspense fallback={<h1>loading...</h1>}>
                 <About />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <Suspense fallback={<h1>loading...</h1>}>
+                <Contact />
               </Suspense>
             }
           />

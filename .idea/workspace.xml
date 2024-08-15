@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f70472dd-32b4-4558-976f-8a2086fd4c83" name="Changes" comment="" />
+    <list default="true" id="f70472dd-32b4-4558-976f-8a2086fd4c83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/layouts/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Contact/Contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Contact/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Footer/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/route/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/route/Router.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +50,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/react-base-ts-master/src/pages/About/img",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -38,6 +63,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react-base-ts-master\src\pages\About\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react-base-ts-master\src\layouts" />
+      <recent name="D:\react-base-ts-master\src\pages" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1723601068850</updated>
       <workItem from="1723601071060" duration="4041000" />
-      <workItem from="1723689282574" duration="4154000" />
+      <workItem from="1723689282574" duration="4263000" />
+      <workItem from="1723727889604" duration="3835000" />
     </task>
     <servers />
   </component>
